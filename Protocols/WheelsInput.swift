@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol WheelsInput: class {
+    func rotate(grad: Int)
+}

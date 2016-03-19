@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol AxisOutput: class {
+    func didRotated ()
+}

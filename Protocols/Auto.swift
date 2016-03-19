@@ -7,3 +7,27 @@
 //
 
 import Foundation
+
+class Auto: WheelOutput {
+    
+    var engine: EngineInput!
+    
+    var metersPass : Float = 0
+    var needToGoMetters : Float = 0
+    
+    
+    func wheelDidRotate(meters: Int) {
+        metersPass += Float(meters)
+        if metersPass >= needToGoMetters {
+            self.engine.stop()
+        }
+        print("Metters passed : \(metersPass)")
+    }
+    
+    func go(meters: Int) {
+        needToGoMetters = Float(meters)
+        engine.start()
+        metersPass = 0
+    }
+}
+

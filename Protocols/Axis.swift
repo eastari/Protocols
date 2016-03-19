@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+class Axis : Rotateble {
+    
+    weak var output : Engine?
+    var wheels : WheelsInput!
+    
+    weak var axisOutput: AxisOutput!
+    
+    func rotate() {
+        print("Axis rotated, wheels = \(wheels)")
+        wheels.rotate(360)
+        axisOutput.didRotated()
+    }
+}

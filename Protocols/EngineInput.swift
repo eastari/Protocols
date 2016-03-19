@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol EngineInput: class {
+    func start()
+    func stop()
+}

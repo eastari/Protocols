@@ -10,16 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let car = CarAssembly.createCar()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+ 
+        let myCar = car[0] as! Auto
+        
+        myCar.go(20)   // I got it 
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

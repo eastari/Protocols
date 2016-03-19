@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol Rotateble: class {
+    func rotate()
+}

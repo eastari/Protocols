@@ -7,3 +7,29 @@
 //
 
 import Foundation
+
+class Engine: EngineInput, AxisOutput {
+    
+    weak var rotor: Rotateble?
+    
+    var stoped = true
+    
+    func start() {
+        print("engine start")
+        stoped = false
+        rotor?.rotate()
+        
+    }
+    
+    func stop() {
+        print("engine stoped")
+        stoped = true
+    }
+    
+    func didRotated() {
+        print("engine ROTATED")
+        if stoped != true {
+            rotor?.rotate()
+        }
+    }
+}

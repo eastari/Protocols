@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+protocol WheelOutput: class {
+    func wheelDidRotate (meters: Int)
+}
+

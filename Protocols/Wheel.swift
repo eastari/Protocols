@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+class Wheels: WheelsInput {
+    
+    weak var output: WheelOutput!
+    
+    func rotate(grad: Int) {
+        output.wheelDidRotate(1)
+    }
+}

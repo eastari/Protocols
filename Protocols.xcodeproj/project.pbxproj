@@ -12,6 +12,16 @@
 		046C24BB1C9C1EBB0047D011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046C24B91C9C1EBB0047D011 /* Main.storyboard */; };
 		046C24BD1C9C1EBB0047D011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046C24BC1C9C1EBB0047D011 /* Assets.xcassets */; };
 		046C24C01C9C1EBB0047D011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046C24BE1C9C1EBB0047D011 /* LaunchScreen.storyboard */; };
+		046C24C81C9C1F8F0047D011 /* Auto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C24C71C9C1F8F0047D011 /* Auto.swift */; };
+		046C24CA1C9C1FBC0047D011 /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C24C91C9C1FBC0047D011 /* Engine.swift */; };
+		046C24CC1C9C1FD20047D011 /* Axis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C24CB1C9C1FD20047D011 /* Axis.swift */; };
+		046C24CE1C9C1FE50047D011 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C24CD1C9C1FE50047D011 /* Wheel.swift */; };
+		046C24D01C9C20D10047D011 /* Rotateble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C24CF1C9C20D10047D011 /* Rotateble.swift */; };
+		046C24D21C9C21020047D011 /* EngineInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C24D11C9C21020047D011 /* EngineInput.swift */; };
+		046C24D61C9C214A0047D011 /* AxisOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C24D51C9C214A0047D011 /* AxisOutput.swift */; };
+		046C24D81C9C21720047D011 /* WheelOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C24D71C9C21720047D011 /* WheelOutput.swift */; };
+		04E6E94F1C9DBA27007D9812 /* WheelsInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6E94E1C9DBA27007D9812 /* WheelsInput.swift */; };
+		04E6E9511C9DBB63007D9812 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6E9501C9DBB63007D9812 /* Assembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		046C24BC1C9C1EBB0047D011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046C24BF1C9C1EBB0047D011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046C24C11C9C1EBB0047D011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046C24C71C9C1F8F0047D011 /* Auto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auto.swift; sourceTree = "<group>"; };
+		046C24C91C9C1FBC0047D011 /* Engine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		046C24CB1C9C1FD20047D011 /* Axis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Axis.swift; sourceTree = "<group>"; };
+		046C24CD1C9C1FE50047D011 /* Wheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
+		046C24CF1C9C20D10047D011 /* Rotateble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rotateble.swift; sourceTree = "<group>"; };
+		046C24D11C9C21020047D011 /* EngineInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineInput.swift; sourceTree = "<group>"; };
+		046C24D51C9C214A0047D011 /* AxisOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxisOutput.swift; sourceTree = "<group>"; };
+		046C24D71C9C21720047D011 /* WheelOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelOutput.swift; sourceTree = "<group>"; };
+		04E6E94E1C9DBA27007D9812 /* WheelsInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelsInput.swift; sourceTree = "<group>"; };
+		04E6E9501C9DBB63007D9812 /* Assembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,16 @@
 			children = (
 				046C24B51C9C1EBB0047D011 /* AppDelegate.swift */,
 				046C24B71C9C1EBB0047D011 /* ViewController.swift */,
+				04E6E9501C9DBB63007D9812 /* Assembly.swift */,
+				046C24CF1C9C20D10047D011 /* Rotateble.swift */,
+				046C24C71C9C1F8F0047D011 /* Auto.swift */,
+				046C24D11C9C21020047D011 /* EngineInput.swift */,
+				046C24C91C9C1FBC0047D011 /* Engine.swift */,
+				046C24D51C9C214A0047D011 /* AxisOutput.swift */,
+				046C24CB1C9C1FD20047D011 /* Axis.swift */,
+				046C24D71C9C21720047D011 /* WheelOutput.swift */,
+				04E6E94E1C9DBA27007D9812 /* WheelsInput.swift */,
+				046C24CD1C9C1FE50047D011 /* Wheel.swift */,
 				046C24B91C9C1EBB0047D011 /* Main.storyboard */,
 				046C24BC1C9C1EBB0047D011 /* Assets.xcassets */,
 				046C24BE1C9C1EBB0047D011 /* LaunchScreen.storyboard */,
@@ -135,8 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046C24D61C9C214A0047D011 /* AxisOutput.swift in Sources */,
+				04E6E9511C9DBB63007D9812 /* Assembly.swift in Sources */,
 				046C24B81C9C1EBB0047D011 /* ViewController.swift in Sources */,
+				046C24CC1C9C1FD20047D011 /* Axis.swift in Sources */,
+				046C24D21C9C21020047D011 /* EngineInput.swift in Sources */,
+				046C24CA1C9C1FBC0047D011 /* Engine.swift in Sources */,
+				046C24D01C9C20D10047D011 /* Rotateble.swift in Sources */,
+				046C24D81C9C21720047D011 /* WheelOutput.swift in Sources */,
+				04E6E94F1C9DBA27007D9812 /* WheelsInput.swift in Sources */,
+				046C24CE1C9C1FE50047D011 /* Wheel.swift in Sources */,
 				046C24B61C9C1EBB0047D011 /* AppDelegate.swift in Sources */,
+				046C24C81C9C1F8F0047D011 /* Auto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +324,7 @@
 				046C24C61C9C1EBB0047D011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
