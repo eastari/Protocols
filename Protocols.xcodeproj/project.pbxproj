@@ -22,6 +22,7 @@
 		046C24D81C9C21720047D011 /* WheelOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046C24D71C9C21720047D011 /* WheelOutput.swift */; };
 		04E6E94F1C9DBA27007D9812 /* WheelsInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6E94E1C9DBA27007D9812 /* WheelsInput.swift */; };
 		04E6E9511C9DBB63007D9812 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6E9501C9DBB63007D9812 /* Assembly.swift */; };
+		04E6E9531C9DF003007D9812 /* CarInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6E9521C9DF003007D9812 /* CarInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		046C24D71C9C21720047D011 /* WheelOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelOutput.swift; sourceTree = "<group>"; };
 		04E6E94E1C9DBA27007D9812 /* WheelsInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WheelsInput.swift; sourceTree = "<group>"; };
 		04E6E9501C9DBB63007D9812 /* Assembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		04E6E9521C9DF003007D9812 /* CarInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInput.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				046C24B51C9C1EBB0047D011 /* AppDelegate.swift */,
 				046C24B71C9C1EBB0047D011 /* ViewController.swift */,
 				04E6E9501C9DBB63007D9812 /* Assembly.swift */,
+				04E6E9521C9DF003007D9812 /* CarInput.swift */,
 				046C24CF1C9C20D10047D011 /* Rotateble.swift */,
 				046C24C71C9C1F8F0047D011 /* Auto.swift */,
 				046C24D11C9C21020047D011 /* EngineInput.swift */,
@@ -167,6 +170,7 @@
 			files = (
 				046C24D61C9C214A0047D011 /* AxisOutput.swift in Sources */,
 				04E6E9511C9DBB63007D9812 /* Assembly.swift in Sources */,
+				04E6E9531C9DF003007D9812 /* CarInput.swift in Sources */,
 				046C24B81C9C1EBB0047D011 /* ViewController.swift in Sources */,
 				046C24CC1C9C1FD20047D011 /* Axis.swift in Sources */,
 				046C24D21C9C21020047D011 /* EngineInput.swift in Sources */,

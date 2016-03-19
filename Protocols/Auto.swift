@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Auto: WheelOutput {
+class Auto: WheelOutput, CarInput {
     
     var engine: EngineInput!
     

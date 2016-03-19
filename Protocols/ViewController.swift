@@ -15,9 +15,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
  
-        let myCar = car[0] as! Auto
+        //let myCar = car[0] as! Auto
+        //myCar.go(20)
         
-        myCar.go(20)   // I got it 
+        car.go(20)
+        
+        
+        print(__FILE__)
+        print(__LINE__)
         
     }
 }
