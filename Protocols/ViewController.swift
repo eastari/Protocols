@@ -10,19 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
     let car = CarAssembly.createCar()
+    var carDelegate : CarInput!
     
     override func viewDidLoad() {
         super.viewDidLoad()
  
-        //let myCar = car[0] as! Auto
-        //myCar.go(20)
+        self.carDelegate = car
         
-        car.go(20)
-        
-        
-        print(__FILE__)
-        print(__LINE__)
+        carDelegate.go(20)
+
         
     }
 }
