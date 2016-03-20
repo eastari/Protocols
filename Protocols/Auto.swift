@@ -8,26 +8,50 @@
 
 import Foundation
 
-class Auto: WheelOutput, CarInput {
+class Auto {
     
-    var engine: EngineInput!
+    var engine: EngineInput?
     
     var metersPass : Float = 0
-    var needToGoMetters : Float = 0
+    var needToGoMetters : Float = 0 
     
+}
+
+extension Auto: CarInput {
     
+    func go(meters: Int) {
+        needToGoMetters = Float(meters)
+        
+        if let engine = engine {
+            engine.start()
+        } else {
+            print("Error")
+            print(__FILE__)
+            print(__LINE__)
+        }
+        
+        metersPass = 0
+    }
+    
+}
+
+
+extension Auto: WheelOutput {
     func wheelDidRotate(meters: Int) {
         metersPass += Float(meters)
         if metersPass >= needToGoMetters {
-            self.engine.stop()
+            if let engine = engine {
+                engine.stop()
+            } else {
+                print("Error")
+                print(__FILE__)
+                print(__LINE__)
+            }
+            
         }
         print("Metters passed : \(metersPass)")
     }
     
-    func go(meters: Int) {
-        needToGoMetters = Float(meters)
-        engine.start()
-        metersPass = 0
-    }
+    
 }
 

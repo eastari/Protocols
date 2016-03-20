@@ -9,7 +9,7 @@
 import Foundation
 
 class CarAssembly {
-    //class func createCar() -> [AnyObject] {
+   
     class func createCar() ->  CarInput {
         let myCar = Auto()
         let myEngine = Engine()
@@ -22,7 +22,6 @@ class CarAssembly {
         myAxis.wheels = myWheel
         myWheel.output = myCar
         
-        //return [myCar, myEngine, myAxis, myWheel]
         return myCar
     }
 

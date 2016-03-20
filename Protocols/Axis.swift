@@ -10,14 +10,19 @@ import Foundation
 
 class Axis : Rotateble {
     
-    weak var output : Engine?
-    var wheels : WheelsInput!
-    
+    var wheels : WheelsInput?
     weak var axisOutput: AxisOutput!
     
     func rotate() {
         print("Axis rotated, wheels = \(wheels)")
-        wheels.rotate(360)
+        if let wheels = wheels {
+            wheels.rotate(360)
+        } else {
+            print("Error")
+            print(__FILE__)
+            print(__LINE__)
+        }
+
         axisOutput.didRotated()
     }
 }

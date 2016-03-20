@@ -10,15 +10,20 @@ import Foundation
 
 class Engine: EngineInput, AxisOutput {
     
-    weak var rotor: Rotateble?
+    var rotor: Rotateble?
     
     var stoped = true
     
     func start() {
         print("engine start")
         stoped = false
-        rotor?.rotate()
-        
+        if let rotor = rotor {
+            rotor.rotate()
+        } else {
+            print("Error")
+            print(__FILE__)
+            print(__LINE__)
+        }
     }
     
     func stop() {

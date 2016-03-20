@@ -12,16 +12,11 @@ class ViewController: UIViewController {
 
     
     let car = CarAssembly.createCar()
-    var carDelegate : CarInput!
     
     override func viewDidLoad() {
         super.viewDidLoad()
- 
-        self.carDelegate = car
         
-        carDelegate.go(20)
-
-        
+        car.go(20)
     }
 }
 

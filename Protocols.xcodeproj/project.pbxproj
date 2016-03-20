@@ -78,23 +78,55 @@
 			children = (
 				046C24B51C9C1EBB0047D011 /* AppDelegate.swift */,
 				046C24B71C9C1EBB0047D011 /* ViewController.swift */,
-				04E6E9501C9DBB63007D9812 /* Assembly.swift */,
-				04E6E9521C9DF003007D9812 /* CarInput.swift */,
-				046C24CF1C9C20D10047D011 /* Rotateble.swift */,
-				046C24C71C9C1F8F0047D011 /* Auto.swift */,
-				046C24D11C9C21020047D011 /* EngineInput.swift */,
-				046C24C91C9C1FBC0047D011 /* Engine.swift */,
-				046C24D51C9C214A0047D011 /* AxisOutput.swift */,
-				046C24CB1C9C1FD20047D011 /* Axis.swift */,
-				046C24D71C9C21720047D011 /* WheelOutput.swift */,
-				04E6E94E1C9DBA27007D9812 /* WheelsInput.swift */,
-				046C24CD1C9C1FE50047D011 /* Wheel.swift */,
+				04F96CA01C9E963600BB7BF8 /* Car */,
+				04F96CA11C9E964100BB7BF8 /* Engine */,
+				04F96CA21C9E965100BB7BF8 /* Axis */,
+				04F96CA31C9E965800BB7BF8 /* Wheels */,
 				046C24B91C9C1EBB0047D011 /* Main.storyboard */,
 				046C24BC1C9C1EBB0047D011 /* Assets.xcassets */,
 				046C24BE1C9C1EBB0047D011 /* LaunchScreen.storyboard */,
 				046C24C11C9C1EBB0047D011 /* Info.plist */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		04F96CA01C9E963600BB7BF8 /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				04E6E9501C9DBB63007D9812 /* Assembly.swift */,
+				04E6E9521C9DF003007D9812 /* CarInput.swift */,
+				046C24CF1C9C20D10047D011 /* Rotateble.swift */,
+				046C24C71C9C1F8F0047D011 /* Auto.swift */,
+			);
+			name = Car;
+			sourceTree = "<group>";
+		};
+		04F96CA11C9E964100BB7BF8 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				046C24D11C9C21020047D011 /* EngineInput.swift */,
+				046C24C91C9C1FBC0047D011 /* Engine.swift */,
+			);
+			name = Engine;
+			sourceTree = "<group>";
+		};
+		04F96CA21C9E965100BB7BF8 /* Axis */ = {
+			isa = PBXGroup;
+			children = (
+				046C24CB1C9C1FD20047D011 /* Axis.swift */,
+				046C24D51C9C214A0047D011 /* AxisOutput.swift */,
+			);
+			name = Axis;
+			sourceTree = "<group>";
+		};
+		04F96CA31C9E965800BB7BF8 /* Wheels */ = {
+			isa = PBXGroup;
+			children = (
+				046C24D71C9C21720047D011 /* WheelOutput.swift */,
+				04E6E94E1C9DBA27007D9812 /* WheelsInput.swift */,
+				046C24CD1C9C1FE50047D011 /* Wheel.swift */,
+			);
+			name = Wheels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
